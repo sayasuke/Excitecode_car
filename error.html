@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- meta情報 -->
+    <title>ExciteCode</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- ogp -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ファビコン -->
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Oswald&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/aos.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <!-- font awesome -->
+    <link
+      href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header class="header js-header">
+      <div class="header__inner">
+        <div class="header__logo logo">
+          <a href="index.html" class="logo__link">
+            <img src="images/logo-2.png" alt="ヘッダーロゴ" />
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__list">
+              <a class="header__link" href="index.html">TOP</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="about.html">ABOUT</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link js-modal-open" href="service.html"
+                >SERVICE</a
+              >
+              <!-- サービス-モーダル -->
+              <!-- <div class="header__service-modal modal js-modal">
+                <div class="modal__body">
+                  <div class="modal__content">
+                    <p class="modal__title">Service</p>
+                    <div class="modal__menu">
+                      <ul>
+                        <li class="modal__list">
+                          <img
+                            src="images/modal-support.jpg"
+                            alt="購入サポート"
+                          />
+                          <a
+                            class="modal__link"
+                            href="service.html#service__support"
+                            >購入サポート
+                          </a>
+                        </li>
+                        <li class="modal__list">
+                          <img src="images/modal-repair.jpg" alt="修理" />
+                          <a
+                            class="modal__link"
+                            href="service.html#service__repair"
+                            >修理&middot;整備
+                          </a>
+                        </li>
+                        <li class="modal__list">
+                          <img src="images/modal-inspection.jpg" alt="点検" />
+                          <a
+                            class="modal__link"
+                            href="service.html#service__inspection"
+                            >車検&middot;点検
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="works.html">WORKS</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="news.html">NEWS</a>
+            </li>
+          </ul>
+          <div class="header__button">
+            <i class="header__envelope fa-regular fa-envelope fa-fw"></i>
+            <a href="contact.html">CONTACT</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- ハンバーガー -->
+      <div class="hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- ドロワー -->
+      <div class="drawer-menu js-drawer">
+        <div class="drawer__header">
+          <img src="images/logo-1.png" alt="ヘッダーロゴ" />
+        </div>
+        <div class="drawer-menu__inner">
+          <ul class="drawer-menu__items">
+            <li class="drawer-menu__item">
+              <a href="index.html" class="drawer-menu__link">TOP</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="about.html" class="drawer-menu__link">ABOUT</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="service.html" class="drawer-menu__link">SERVICE</a>
+            </li>
+
+            <li class="drawer-menu__item">
+              <a href="works.html" class="drawer-menu__link">WORKS</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="news.htmll" class="drawer-menu__link">NEWS</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="contact.html" class="drawer-menu__link">CONTACT</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="#" class="drawer-menu__link">プライバシーポリシー</a>
+            </li>
+          </ul>
+
+          <div class="drawer-menu__sns">
+            <i class="drawer-menu__fa fa-brands fa-facebook fa-fw"></i>
+            <i class="drawer-menu__fa fa-brands fa-twitter fa-fw"></i>
+            <i class="drawer-menu__fa fa-brands fa-instagram fa-fw"></i>
+          </div>
+        </div>
+      </div>
+      <div class="circle-bg"></div>
+    </header>
+
+    <main>
+      <div class="error-page error">
+        <div class="error__inner">
+          <div class="error__content">
+            <div class="error__box">
+              <h1 class="error__title">404&nbsp;Not&nbsp;Found</h1>
+              <p class="error__text md-none">
+                お探しのページはURLが誤っているか、削除された可能性があります。<br />
+                3秒後にTOPページに遷移します
+              </p>
+              <a href="index.html" class="error__button md-none">topへ戻る</a>
+            </div>
+          </div>
+        </div>
+        <div class="error__box-content-sp pc-none">
+          <p class="error__text error__text--sp">
+            お探しのページはURLが誤っているか、削除された可能性があります。<br />
+            3秒後にTOPページに遷移します
+          </p>
+          <a href="index.html" class="error__button error__button--sp"
+            >topへ戻る</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer__inner inner">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <div class="footer__logo-img">
+              <img src="images/logo-1.png" alt="ロゴ" />
+            </div>
+            <div class="footer__sns">
+              <i class="fa-brands fa-facebook fa-fw"></i>
+              <i class="fa-brands fa-twitter fa-fw"></i>
+              <i class="fa-brands fa-instagram fa-fw"></i>
+            </div>
+          </div>
+          <small class="footer__copyright"
+            >&copy;2022 ExciteCode Automobile</small
+          >
+        </div>
+        <div class="footer__menu">
+          <nav class="footer__nav">
+            <ul>
+              <li class="footer__list">
+                <a href="" class="footer__link">top</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">about</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">service</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">works</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">news</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">contact</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">プライバシーポリシー</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

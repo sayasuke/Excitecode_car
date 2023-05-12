@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- meta情報 -->
+    <title>ExciteCode</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- ogp -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ファビコン -->
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Oswald&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/aos.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <!-- font awesome -->
+    <link
+      href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header class="header js-header">
+      <div class="header__inner">
+        <div class="header__logo logo">
+          <a href="index.html" class="logo__link">
+            <img src="images/logo-2.png" alt="ヘッダーロゴ" />
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li class="header__list">
+              <a class="header__link" href="index.html">TOP</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="about.html">ABOUT</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link js-modal-open" href="service.html"
+                >SERVICE</a
+              >
+              <!-- サービス-モーダル -->
+              <!-- <div class="header__service-modal modal js-modal">
+                <div class="modal__body">
+                  <div class="modal__content">
+                    <p class="modal__title">Service</p>
+                    <div class="modal__menu">
+                      <ul>
+                        <li class="modal__list">
+                          <img
+                            src="images/modal-support.jpg"
+                            alt="購入サポート"
+                          />
+                          <a
+                            class="modal__link"
+                            href="service.html#service__support"
+                            >購入サポート
+                          </a>
+                        </li>
+                        <li class="modal__list">
+                          <img src="images/modal-repair.jpg" alt="修理" />
+                          <a
+                            class="modal__link"
+                            href="service.html#service__repair"
+                            >修理&middot;整備
+                          </a>
+                        </li>
+                        <li class="modal__list">
+                          <img src="images/modal-inspection.jpg" alt="点検" />
+                          <a
+                            class="modal__link"
+                            href="service.html#service__inspection"
+                            >車検&middot;点検
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="works.html">WORKS</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="news.html">NEWS</a>
+            </li>
+          </ul>
+          <div class="header__button">
+            <i class="header__envelope fa-regular fa-envelope fa-fw"></i>
+            <a href="contact.html">CONTACT</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- ハンバーガー -->
+      <div class="hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- ドロワー -->
+      <div class="drawer-menu js-drawer">
+        <div class="drawer__header">
+          <img src="images/logo-1.png" alt="ヘッダーロゴ" />
+        </div>
+        <div class="drawer-menu__inner">
+          <ul class="drawer-menu__items">
+            <li class="drawer-menu__item">
+              <a href="index.html" class="drawer-menu__link">TOP</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="about.html" class="drawer-menu__link">ABOUT</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="service.html" class="drawer-menu__link">SERVICE</a>
+            </li>
+
+            <li class="drawer-menu__item">
+              <a href="works.html" class="drawer-menu__link">WORKS</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="news.htmll" class="drawer-menu__link">NEWS</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="contact.html" class="drawer-menu__link">CONTACT</a>
+            </li>
+            <li class="drawer-menu__item">
+              <a href="#" class="drawer-menu__link">プライバシーポリシー</a>
+            </li>
+          </ul>
+
+          <div class="drawer-menu__sns">
+            <i class="drawer-menu__fa fa-brands fa-facebook fa-fw"></i>
+            <i class="drawer-menu__fa fa-brands fa-twitter fa-fw"></i>
+            <i class="drawer-menu__fa fa-brands fa-instagram fa-fw"></i>
+          </div>
+        </div>
+      </div>
+      <div class="circle-bg"></div>
+    </header>
+
+    <main>
+      <!-- アバウト-メインビュー -->
+      <div class="about-mv mv-wrapper">
+        <div
+          class="about-mv__box title-box"
+          data-aos="slide-right"
+          data-aos-delay="200"
+          data-aos-duration="600"
+        >
+          <h1 class="about-mv__heading heading heading--mv">About</h1>
+          <p class="about-mv__subtitle heading heading--sub">私たちについて</p>
+        </div>
+        <div class="about-mv__img mv__img" data-aos="slide-up">
+          <img src="images/about-mv.jpg" alt="複数の車が並んでいる" />
+        </div>
+      </div>
+
+      <!-- ナビゲーション -->
+      <div class="navigation">
+        <div class="nav-box">
+          <p>top</p>
+          <span></span>
+          <p>about</p>
+        </div>
+      </div>
+
+      <!-- メニュー -->
+      <div class="page-top-menu">
+        <ul>
+          <li><a href="#philsophy" class="page-top-menu__link">経営理念</a></li>
+          <li><a href="#access" class="page-top-menu__link">アクセス</a></li>
+          <li><a href="#profile" class="page-top-menu__link">会社概要</a></li>
+        </ul>
+      </div>
+
+      <!-- メッセージ -->
+      <div class="top-message">
+        <div class="top-message__inner inner">
+          <div class="top-message__box" data-aos="fade-up">
+            <p class="top-message__main">
+              国境を超え、メーカーを超え<br />「型にはまらない」あなただけの歓びを
+            </p>
+            <p class="top-message__sub">
+              弊社は、輸入車選びのすべてを見つめ直し、新たなスタイルを提案するインポート・セレクト・ブランドです。<br />これまでの憧れだけや批評家の意見といったイメージで選ぶのではなく、オーナー様となる方がクルマから直接感じるリアルな感性を第一にした、最良の一台との出会いをコーディネートいたします。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 経営理念 -->
+      <section id="philosophy" class="philosophy">
+        <div class="philosophy__inner inner">
+          <div class="philosophy__title-box">
+            <p class="philosophy__heading--small heading heading--about-small">
+              経営理念
+            </p>
+            <h2 class="philosophy__heading heading heading--about">
+              Philosophy
+            </h2>
+          </div>
+          <div class="philosophy__text-container">
+            <p class="philosophy__text">
+              「お客様とは一生涯のお付き合い」をモットーとし、同時に社員一人一人が責任と誇り、使命感を持ち日々の仕事にやりがいと喜びを感じることができる会社を目指します。<br />
+              そういう「社員満足」があってこそ、本当の「お客様に満足」が可能になり、そしてお客様のご満足がさらに社員の満足を高めてくれるからです。<br />
+              心の豊かさは楽とかゆとりとかいうより仕事の充実感に求めねばなりません。<br />
+              我々は現状に満足することなく挑戦し続けます。
+            </p>
+            <p class="philosophy__name">代表取締役&emsp;田中太郎</p>
+          </div>
+          <div class="philosophy__image">
+            <img src="images/philosophy.jpg" alt="代表取締役&emsp;田中太郎" />
+          </div>
+        </div>
+      </section>
+
+      <!-- アクセス -->
+      <section id="access" class="access">
+        <div class="access__inner inner">
+          <div class="access__title-box">
+            <p class="access__heading--small heading heading--about-small">
+              アクセス
+            </p>
+            <h2 class="access__heading heading heading--about">Access</h2>
+          </div>
+          <p class="access__address">
+            〒000-0000&emsp;<br
+              class="pc-none"
+            />&#9675;&#9675;県&#9651;&#9651;市&#9633;&#9633;区&#9650;&#9650;町0-0-0
+          </p>
+          <div class="access__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.824025275358!2d139.76437091474608!3d35.6813347875747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1677494277115!5m2!1sja!2sjp"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 会社概要　プロフィール -->
+      <section id="profile" class="profile">
+        <div class="profile__inner inner">
+          <div class="profile__title-box">
+            <p class="profile__heading--small heading heading--about-small">
+              会社概要
+            </p>
+            <h2 class="profile__heading heading heading--about">
+              Company&nbsp;Profile
+            </h2>
+          </div>
+          <div class="profile__container">
+            <dl class="profile__info">
+              <dt>会社名</dt>
+              <dd>株式会社Excitecode</dd>
+            </dl>
+            <dl class="profile__info">
+              <dt>所在地</dt>
+              <dd>
+                〒000-0000&emsp;&#9675;&#9675;県&#9651;&#9651;市&#9633;&#9633;区&#9650;&#9650;町0-0-0
+              </dd>
+            </dl>
+            <dl class="profile__info">
+              <dt>設立</dt>
+              <dd>2015年12月10日</dd>
+            </dl>
+            <dl class="profile__info">
+              <dt>代表取締役</dt>
+              <dd>田中&nbsp;太郎</dd>
+            </dl>
+            <dl class="profile__info">
+              <dt>事業内容</dt>
+              <dd>
+                自動車販売（新車、中古車）古物No.第00000000号<br />自動車整備（国産車、輸入車）陸運局認証工場&nbsp;認証No.0-0000<br />輸入車販売（自動車、自動車関連部品<br />保険代理店（ABC損害保険株式会社、DFG損害保険株式会社
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="profile__slide slide">
+          <ul class="slide__container">
+            <li class="slide__image">
+              <img src="images/profile01.jpg" alt="車の点検中" />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile02.jpg"
+                alt="車を下から覗き込んで修理している"
+              />
+            </li>
+            <li class="slide__image">
+              <img src="images/profile03.jpg" alt="赤い車を磨いている" />
+            </li>
+            <li class="slide__image">
+              <img src="images/profile04.jpg" alt="バンパーの点検" />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile05.jpg"
+                alt="責任をもって貴方の車をお預かりします"
+              />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile06.jpg"
+                alt="奇麗になった車に対して笑顔の女性"
+              />
+            </li>
+          </ul>
+          <ul class="slide__container">
+            <li class="slide__image">
+              <img src="images/profile01.jpg" alt="車の点検中" />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile02.jpg"
+                alt="車を下から覗き込んで修理している"
+              />
+            </li>
+            <li class="slide__image">
+              <img src="images/profile03.jpg" alt="赤い車を磨いている" />
+            </li>
+            <li class="slide__image">
+              <img src="images/profile04.jpg" alt="バンパーの点検" />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile05.jpg"
+                alt="責任をもって貴方の車をお預かりします"
+              />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile06.jpg"
+                alt="奇麗になった車に対して笑顔の女性"
+              />
+            </li>
+          </ul>
+          <ul class="slide__container">
+            <li class="slide__image">
+              <img src="images/profile01.jpg" alt="車の点検中" />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile02.jpg"
+                alt="車を下から覗き込んで修理している"
+              />
+            </li>
+            <li class="slide__image">
+              <img src="images/profile03.jpg" alt="赤い車を磨いている" />
+            </li>
+            <li class="slide__image">
+              <img src="images/profile04.jpg" alt="バンパーの点検" />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile05.jpg"
+                alt="責任をもって貴方の車をお預かりします"
+              />
+            </li>
+            <li class="slide__image">
+              <img
+                src="images/profile06.jpg"
+                alt="奇麗になった車に対して笑顔の女性"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- コンタクト -->
+      <section class="top-contact">
+        <div class="top-contact__contents">
+          <div class="top-contact__img">
+            <picture>
+              <source
+                srcset="images/top-contact.jpg"
+                media="(min-width: 769px)"
+              />
+              <img src="images/top-sp-contact.jpg" alt="輸入車が並んでいる" />
+            </picture>
+          </div>
+          <div class="top-contact__box">
+            <p class="top-contact__text">
+              輸入車の購入や修理のご相談など<br />お気軽にお問い合わせください。
+            </p>
+            <div class="top-contact__button button--mail">
+              <i class="top-contact__icon fa-regular fa-envelope fa-fw"></i>
+              <a href="contact.html">お問い合わせ</a>
+            </div>
+            <div class="top-contact__button button--tel">
+              <i class="top-contact__icon fa-solid fa-phone fa-fw"></i>
+              <a href="">0000-000-000</a>
+            </div>
+            <p class="top-contact__note">
+              受付時間&#58;火曜日を除く 10&#58;00〜18&#58;00
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 共通パーツ -->
+      <!-- <div class="inner">インナー幅</div>
+      <h2 class="heading">heading</h2>
+      <div class="heading heading--sub"></div>
+      <div class="heading heading--top">Top</div>
+      <div class="heading heading--mv">Main view</div>
+      <div class="heading heading--about">about</div> -->
+      <!-- アイコン -->
+      <!-- <i class="fa-regular fa-envelope"></i>
+      <i class="fa-light fa-phone"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i> -->
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer__inner inner">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <div class="footer__logo-img">
+              <img src="images/logo-1.png" alt="ロゴ" />
+            </div>
+            <div class="footer__sns">
+              <i class="fa-brands fa-facebook fa-fw"></i>
+              <i class="fa-brands fa-twitter fa-fw"></i>
+              <i class="fa-brands fa-instagram fa-fw"></i>
+            </div>
+          </div>
+          <small class="footer__copyright"
+            >&copy;2022 ExciteCode Automobile</small
+          >
+        </div>
+        <div class="footer__menu">
+          <nav class="footer__nav">
+            <ul>
+              <li class="footer__list">
+                <a href="" class="footer__link">top</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">about</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">service</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">works</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">news</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">contact</a>
+              </li>
+              <li class="footer__list">
+                <a href="" class="footer__link">プライバシーポリシー</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
